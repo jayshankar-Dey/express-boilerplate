@@ -1,4 +1,5 @@
 import { Request, Response, NextFunction } from "express";
+
 class Controller {
   //user register
   Register = (req: Request, res: Response, next: NextFunction) => {};
