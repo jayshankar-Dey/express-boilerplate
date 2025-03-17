@@ -25,6 +25,7 @@
     },
     "devDependencies": {
         "@types/cors": "^2.8.17",
+        "@types/dotenv": "^8.2.3",
         "@types/express": "^5.0.0",
         "@types/mongoose": "^5.11.97",
         "@types/morgan": "^1.9.9",
