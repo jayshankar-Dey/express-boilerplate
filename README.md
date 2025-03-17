@@ -1,2 +1,2 @@
 
-## it is a express-boilerplate
+## it is a express-ts-boilerplate
