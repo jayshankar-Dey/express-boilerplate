@@ -1,8 +1,9 @@
 {
-    "name": "express-boilerplate",
+    "name": "express-boilerplate-jay",
     "version": "1.0.0",
-    "description": "",
-    "main": "server.js",
+    "description": "A simple Express.js boilerplate with TypeScript",
+    "main": "dist/server.js",
+    "types": "dist/server.d.ts",
     "scripts": {
         "start": "node dist/server.js",
         "dev": "nodemon dist/server.js",
@@ -10,8 +11,8 @@
         "build": "tsc",
         "prepare": "npm run build"
     },
-    "keywords": [],
-    "author": "",
+    "keywords": ["express", "boilerplate", "typescript"],
+    "author": "jayshankar",
     "license": "ISC",
     "dependencies": {
         "cloudinary": "^2.6.0",
@@ -33,5 +34,9 @@
         "@types/node": "^22.13.10",
         "nodemon": "^3.1.9",
         "typescript": "^5.8.2"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jayshankar-Dey/express-boilerplate+git"
     }
 }
